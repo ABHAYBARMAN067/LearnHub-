@@ -6,7 +6,84 @@ A comprehensive e-learning platform built with MERN stack, featuring user authen
 ![Home Page](frontend/src/assets/scrhome.png)
 
 
-# Features
+
+ #  ✨ Features
+👥 User Roles
+🔑 Admin
+
+Create, update, publish, and delete courses
+
+Add course details (title, description, duration, lessons/modules)
+
+Manage multiple courses from admin dashboard
+
+View enrolled students for each course
+
+🎓 Student
+
+Browse available courses
+
+Enroll in courses with a single click
+
+Access enrolled courses via personal dashboard
+
+Track learning progress and completed lessons
+
+🔐 Authentication & Authorization
+
+Secure user registration and login using JWT
+
+Role-based access control (Admin / Student)
+
+Protected routes for authorized users only
+
+📚 Course Management
+
+Structured courses with multiple lessons/modules
+
+Centralized course creation and updates by admin
+
+Real-time course updates across the platform
+
+🧾 Student Enrollment
+
+View all available courses
+
+One-click enrollment system
+
+Separate dashboard for enrolled courses
+
+📊 Progress Tracking
+
+Track completed lessons/modules per course
+
+Automatic calculation of course completion percentage
+
+Visual display of learning progress on dashboard
+
+🔄 System Workflow (High Level)
+
+Admin creates and publishes courses
+
+Student registers and logs in
+
+Student browses available courses
+
+Student enrolls in a course
+
+Student completes lessons/modules
+
+System automatically updates learning progress
+
+📱 User Experience
+
+Fully responsive UI (mobile, tablet, desktop)
+
+Clean and modern design using Tailwind CSS
+
+Smooth navigation with React Router
+
+# Features Summary
 
 - **User Authentication**: Secure login and registration with JWT tokens
 - **Email Notifications**: Welcome emails for new registrations and login notifications
@@ -17,6 +94,8 @@ A comprehensive e-learning platform built with MERN stack, featuring user authen
 - **Admin Dashboard**: Manage courses, view statistics
 - **Student Dashboard**: View enrolled courses and progress
 - **Responsive Design**: Mobile-friendly interface with Tailwind CSS
+
+
 
 ## Tech Stack
 
