@@ -5,7 +5,7 @@ A comprehensive e-learning platform built with MERN stack, featuring user authen
 ### Home Page
 ![Home Page](frontend/src/assets/home.png)
 
-//
+
 # Features
 
 - **User Authentication**: Secure login and registration with JWT tokens
