@@ -3,7 +3,7 @@
 A comprehensive e-learning platform built with MERN stack, featuring user authentication, course management, enrollment tracking, and progress monitoring.
 
 ### Home Page
-![Home Page](frontend/src/assets/home.png)
+![Home Page](frontend/src/assets/scrhome.png)
 
 
 # Features
