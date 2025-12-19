@@ -14,29 +14,29 @@ const CourseCard = ({ course }) => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
       <div className="p-6">
         <div className="flex items-center justify-between mb-2">
           <span className={`px-2 py-1 text-xs font-semibold rounded-full ${
             course.status === 'published'
-              ? 'bg-green-100 text-green-800'
+              ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200'
               : course.status === 'draft'
-              ? 'bg-yellow-100 text-yellow-800'
-              : 'bg-gray-100 text-gray-800'
+              ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200'
+              : 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200'
           }`}>
             {course.status}
           </span>
-          <span className="text-sm text-gray-500">{course.duration}</span>
+          <span className="text-sm text-gray-500 dark:text-gray-400">{course.duration}</span>
         </div>
 
-        <h3 className="text-xl font-semibold text-gray-900 mb-2">{course.title}</h3>
-        <p className="text-gray-600 text-sm mb-4 line-clamp-3">{course.description}</p>
+        <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">{course.title}</h3>
+        <p className="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">{course.description}</p>
 
         <div className="flex items-center justify-between">
-          <div className="text-sm text-gray-500">
+          <div className="text-sm text-gray-500 dark:text-gray-400">
             By {course.instructor?.name || 'Unknown Instructor'}
           </div>
-          <div className="text-sm text-gray-500">
+          <div className="text-sm text-gray-500 dark:text-gray-400">
             {course.totalLessons} lessons
           </div>
         </div>
