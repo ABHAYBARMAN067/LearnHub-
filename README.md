@@ -3,7 +3,9 @@
 A comprehensive e-learning platform built with MERN stack, featuring user authentication, course management, enrollment tracking, and progress monitoring.
 
 ### Home Page
-![Home Page](assets/screenshots/home.png)
+![Home Page](frontend/src/assets/home.png)
+
+
 # Features
 
 - **User Authentication**: Secure login and registration with JWT tokens
